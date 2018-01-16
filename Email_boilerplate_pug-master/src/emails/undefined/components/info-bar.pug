@@ -1,0 +1,13 @@
+table(bgcolor=white width=max_w align="center" class="deviceWidth")&attributes(tableAtt)
+  tr
+    +vSpacer(30)
+    td(align="center" style=" padding: 10px; background-color:#eacb3c ;")
+      table(align="center" width="100%")&attributes(tableAtt)
+        tr
+          td(align="center")
+            table
+              tr
+                each icon in social_icons
+                  td(style="padding: 0 10px;")
+                    a(href=icon.url target="_blank")
+                    img(src=img_path+icon.img width=icon.width height=icon.height style="display: block; border: 0px;")

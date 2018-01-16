@@ -1,0 +1,38 @@
+{
+    "header": {
+        "title": "Title",
+        "button": "Home",
+        "button2": "Shop",
+        "button3": "Contact"
+    },
+    "content": {
+        "title": "Tell Us What You Think in 5 Minutes or Less"
+    },
+    "social_icons": [{
+            "img": "icon-facebook.png",
+            "url": "#",
+            "width": "43",
+            "height": "42"
+        },
+        {
+            "img": "icon-twitter.png",
+            "url": "#",
+            "width": "43",
+            "height": "42"
+        },
+        {
+            "img": "icon-linked.png",
+            "url": "#",
+            "width": "43",
+            "height": "42"
+        }
+    ],
+    "comments": [
+        "We created this template based on what emails developers needs, it is not an easy task but we bring you help",
+        "It is a long trip that never ends if you have any suggestion let us know"
+    ],
+    "info": {
+        "title": "Your Heading Goes Here",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+    }
+}
