@@ -1,0 +1,47 @@
+table(width=max_w align="center" class="deviceWidth")&attributes(tableAtt)
+  tr
+    td(align="center" class="f_normal" style="padding: 35px; background-color: #ffffff;" bgcolor=white)
+      table(align="center" width="100%")&attributes(tableAtt)
+        tr
+          td(align="left" class="f_normal" style=`font-family: ${fallback}; font-size: 14px; line-height: 24px;` bgcolor="#FFF")
+            p(class="f_normal brown  mainTitle title2" style="text-align: center").
+              !{info.title2}
+            p(class="f_normal gray").
+              !{info.text2}
+table(bgcolor=white width=max_w align="center" class="deviceWidth")&attributes(tableAtt)
+  tr
+    td(align="left" valign="top" width="288" class="mobile-hide")
+      table&attributes(tableAtt)
+        tr
+          td(class="mainTitle").
+            !{info.title}
+        +vSpacer(22)
+        tr
+          td(class="LoremText").
+            !{info.description}
+        +vSpacer(10)
+        tr
+          td
+            +button({ text:'Learn More', color:'black', width:120, radius:4, height:32, bgcolor:'#eacb3c'})
+    +hSpacer(32)
+    td(align="left" valign="top" width="280" class="mobile-table" bgcolor=white)
+      table(class="mobile-table")&attributes(tableAtt)
+        tr
+          td(class="mobile-table")
+            img(src=img_path+"image1.jpg" width="280" height="140" class="mobile-table")
+  //- +vSpacer(10)
+  tr(class="hideDesktop")
+    td(align="left" valign="top" width="280" class="mobile-table")
+      table(class="mobile-table mobile-center")&attributes(tableAtt)
+        +vSpacer(10)
+        tr
+          td(class="mainTitle").
+            !{info.title}
+        +vSpacer(22)
+        tr
+          td(class="LoremText").
+            !{info.description}
+        +vSpacer(10)
+        tr
+          td
+            +button({ text:'Learn More', color:'black', width:120, radius:4, height:32, bgcolor:'#eacb3c'})

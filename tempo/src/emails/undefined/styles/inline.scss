@@ -1,0 +1,71 @@
+@import "variables.scss";
+.white {
+    color: $white;
+}
+
+.f_normal {
+    font-weight: 400;
+}
+
+.f_bold {
+    font-weight: 800;
+}
+
+.brown {
+    color: $brown;
+}
+
+.yellow {
+    color: $yellow;
+}
+
+.gray {
+    color: $gray;
+}
+
+.padding-top {
+    padding-top: 15px;
+}
+
+.padding-bot {
+    padding-bottom: 20px;
+}
+
+.bg-image {
+    background-color: $brown;
+    width: 251px;
+    border-radius: 5px 0 0 5px;
+}
+
+.intro-text {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    line-height: 36px;
+}
+
+.title2 {
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 16px;
+}
+
+.mainTitle {
+    color: $brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.LoremText {
+    color: $gray;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.hideDesktop {
+    display: none;
+}
+
+.Ltext {
+    width: 260px;
+}
