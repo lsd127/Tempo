@@ -33,6 +33,8 @@
     ],
     "info": {
         "title": "Your Heading Goes Here",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
+        "title2": "Full width text block Content",
+        "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     }
 }
